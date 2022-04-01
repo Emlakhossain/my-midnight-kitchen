@@ -1,0 +1,17 @@
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.nav-container {
+    background-color: darkslategray;
+    padding: 20px;
+
+}

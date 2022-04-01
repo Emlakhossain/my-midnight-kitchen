@@ -1,0 +1,26 @@
+.food-items img {
+    width: 220px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    padding: 3px;
+}
+
+.food-items {
+    border: 2px solid rgb(101, 185, 213);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.text-content {
+    text-align: start;
+}
+
+.cart-bn {
+    background-color: lightblue;
+    border: 0;
+    padding: 8px;
+    width: 75%;
+    border-radius: 7px;
+    color: rgb(29, 29, 28);
+    font-weight: 600;
+}
