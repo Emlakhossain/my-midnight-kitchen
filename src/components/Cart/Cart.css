@@ -1,0 +1,18 @@
+.cart-container {
+    background-color: blanchedalmond;
+    margin: 10px;
+    border-radius: 4px;
+    height: 500px;
+}
+
+.cart-item {
+    text-align: start;
+    padding-left: 10px;
+
+}
+
+.cart-btn {
+    background-color: orange;
+    border: 0;
+    margin-left: 20px;
+}

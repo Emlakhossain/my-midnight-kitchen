@@ -24,3 +24,8 @@
     color: rgb(29, 29, 28);
     font-weight: 600;
 }
+
+.cart-bn:hover {
+    background-color: orange;
+    cursor: pointer;
+}

@@ -1,9 +1,8 @@
 import React from 'react';
 import './Food.css';
 
-const Food = (props) => {
-
-    const { strMeal, strMealThumb, strInstructions, strCategory } = props.food;
+const Food = ({ food, handleAddToCart }) => {
+    const { strMeal, strMealThumb, strInstructions, strCategory } = food;
 
     return (
         <div className='food-items'>
@@ -13,7 +12,7 @@ const Food = (props) => {
                 <p>Cateegory:{strCategory}</p>
                 <p className='' title={strInstructions}>Intro:{strInstructions.length > 40 ? strInstructions.slice(0, 100) + '...' : strInstructions}</p>
             </div>
-            <button className='cart-bn'>Add To Cart</button>
+            <button onClick={() => handleAddToCart(food)} className='cart-bn'>Add To Cart</button>
         </div>
     );
 };
